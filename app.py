@@ -4,7 +4,7 @@ import openrouteservice
 app = Flask(__name__)
 
 # Initialize OpenRouteService client with your API key
-ORS_API_KEY = "5b3ce3597851110001cf62481b378c072ca34f35a659d849f8a5ef21"  # Replace with your actual OpenRouteService API key
+ORS_API_KEY = "your_key"  # Replace with your actual OpenRouteService API key
 client = openrouteservice.Client(key=ORS_API_KEY)
 
 @app.route('/')
