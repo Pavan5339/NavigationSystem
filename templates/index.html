@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Route Finder</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+<div id="map"></div>
+<div id="info">
+    <h2>Route Information</h2>
+    <p><strong>Distance:</strong> <span id="distance">--</span></p>
+    <p><strong>Estimated Time:</strong> <span id="time">--</span></p>
+    <button id="clearBtn">Clear</button>
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+<script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="/static/map.js"></script>
+</body>
+</html>
